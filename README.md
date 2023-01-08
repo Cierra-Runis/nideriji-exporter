@@ -1,7 +1,8 @@
 <div align="center">
-  <img id="nideriji-exporter" width="64" alt="nideriji-exporter" src="repository_icon/icon.png">
+  <img id="nideriji-exporter" width="96" alt="nideriji-exporter" src="repository_icon/icon.png">
   <p>「 Nideriji Exporter - 导出你的日记！」</p>
 </div>
+
 
 [📚 简介](#-简介)
 
