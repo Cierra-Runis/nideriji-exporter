@@ -322,8 +322,12 @@ def export_all_diaries(all_diaries: tuple) -> None:
                 'w',
                 encoding='utf-8',
         ) as file:
-            file.write(json.dumps(all_diaries[1], ensure_ascii=False,
-                                  indent=1))
+            file.write(
+                json.dumps(
+                    all_diaries[1],
+                    ensure_ascii=False,
+                    indent=2,
+                ))
 
 
 def export_all_imgs(self_imgs, pair_imgs) -> None:
@@ -344,7 +348,7 @@ def export_all_imgs(self_imgs, pair_imgs) -> None:
                 'w',
                 encoding='utf-8',
         ) as file:
-            file.write(json.dumps(pair_imgs, ensure_ascii=False, indent=1))
+            file.write(json.dumps(pair_imgs, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

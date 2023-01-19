@@ -1,4 +1,2 @@
 .exported/
-diary.py
-mercurius_diary.json
-output.json
+convert_output.json
