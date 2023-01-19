@@ -32,7 +32,7 @@ WEATHER_DICT: dict = {
     'cloudy': '104',
     'sunny': '100',
     'rainy': '305',
-    'fog': '500',
+    'fog': '501',
     'windy': '100',
     'hail': '402',
 }
